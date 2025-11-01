@@ -1,0 +1,7 @@
+streamlit==1.24.1
+tensorflow==2.15.0
+scikit-learn
+pandas
+numpy
+keras
+openai
