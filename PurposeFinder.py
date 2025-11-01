@@ -225,7 +225,7 @@ if st.button('Generate my purpose summary'):
         st.write('Purpose (example):')
         # create a small purpose sentence from top domains/values
         if domains:
-            purpose = f"Focus on {domains[0].lower()} while honoring your values of {values_text}.")
+            purpose = f"Focus on {domains[0].lower()} while honoring your values of {values_text}."
         else:
             purpose = f"Explore activities that combine your values ({values_text}) with your strengths."
         st.write('- ' + purpose)
